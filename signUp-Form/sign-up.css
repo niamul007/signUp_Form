@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd9d9;
+  }
+  .container {
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 15px;
+    box-shadow: 20px 30px 50px rgb(67, 64, 64);
+  }
+  h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+  }
+  p {
+    font-size: medium;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: orange;
+  }
+  form input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid orange;
+    text-align: left;
+    font-size: medium;
+  }
+  .input-email::placeholder{
+    position: relative;
+    left: -2rem;
+    top: .5px;
+  }
+  input[type="email"]:focus,
+  input[ type="password"]:focus,
+  textarea:focus{
+    outline: none;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .sub {
+    padding: 0.5rem 6rem;
+    border-radius: 4rem;
+    margin-top: 2rem;
+    background-color: orange;
+    border: none;
+    color: #fff;
+  }
+  .up{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .in{
+    padding: .3rem 1rem;
+    border-radius: 4rem;
+    border:none;
+    color: #7c7a7a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1.5px solid black;
+  }
+  #click:hover{
+    text-decoration: underline;
+    color: rgb(255, 103, 2);
+  }
+  .sub:hover{
+    box-shadow: 0px 5px 8px black;
+  }
+  .in{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #b0aaa3;
+    border: none;
+  }
+  .in:hover{
+    background-color: orangered;
+    box-shadow: 0px 4px 5px rgb(19, 18, 18);
+  }
